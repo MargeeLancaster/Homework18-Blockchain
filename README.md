@@ -48,15 +48,15 @@ new_block = Block(
 
  ## Step 4 - Test the PyChain Ledger by Storing Records
 
- ![alt=""](Images/terminal-run-streamlit.png)   
+ ![Terminal Run Streamlit](Images/terminal-run-streamlit.png)   
 
 
- ![alt=""](Images/streamlit1.png)
+ ![Streamlit imputing Records](Images/streamlit1.png)
 
 
- ![alt=""](Images/streamlit2.png)
+ ![PyChain Transaction Record](Images/streamlit2.png)
 
 
- ![alt=""](Images/streamlit3.png)
+ ![Validation Transaction](Images/streamlit3.png)
 
 
