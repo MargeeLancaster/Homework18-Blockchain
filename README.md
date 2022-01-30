@@ -48,15 +48,27 @@ new_block = Block(
 
  ## Step 4 - Test the PyChain Ledger by Storing Records
 
- ![Terminal Run Streamlit](Images/terminal-run-streamlit.png)   
+ ![Terminal Run Streamlit](./Images/terminal-run-streamlit.png)   
 
 
- ![Streamlit imputing Records](Images/streamlit1.png)
+ ![Streamlit imputing Records](./Images/streamlit1.png)
 
 
- ![PyChain Transaction Record](Images/streamlit2.png)
+ ![PyChain Transaction Record](./Images/streamlit2.png)
 
 
- ![Validation Transaction](Images/streamlit3.png)
+ ![Validation Transaction](./Images/streamlit3.png)
+
+ ## How it Works
+There are three user imputs:
+
+* Sender
+* Receiver
+* Amount
+
+This information is store in a dictionary and is stored as a Record in the Blockchain.  Each block contains intormation about the transaction along with the time of the tranaction, id of the person minting the transaction, the hash of the previous tranaction and the nonce.  These transactions are then validated to confirm that it is legitimate.
+
+
+ 
 
 
